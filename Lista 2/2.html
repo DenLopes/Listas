@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let kwat;
+        kwat = Number(prompt("Digite o tanto consumido"));
+
+        document.write("O valor da fatura será: "+(((kwat*.41)+((kwat*.41)*.03)+1.71)).toFixed(2)+"</br>");
+        document.write("A taxa de iluminação publica é "+((kwat*.41)*.03).toFixed(2));
+    </script>
+</body>
+</html>
